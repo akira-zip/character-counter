@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ebebe1;
+  --foreground: #ddddd3;
+  --tc-info-box: #d3a1fa;
+  --wc-info-box: #ffaf00;
+  --font-color: #0f0f0f;
+}
+
+.dark {
+  --background: #14141e;
+  --foreground: #22222c;
+  --tc-info-box: #d3a1fa;
+  --wc-info-box: #ffaf00;
+  --font-color: #f0f0f0;
+}
+
+* {
+  @apply transition-colors duration-200;
+}
